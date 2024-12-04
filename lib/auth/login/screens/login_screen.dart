@@ -27,6 +27,9 @@ class LoginScreen extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
+                  const Text('Login',
+                      style:
+                          TextStyle(fontSize: 32, fontWeight: FontWeight.bold)),
                   //username
                   TextFormField(
                     validator: (value) {

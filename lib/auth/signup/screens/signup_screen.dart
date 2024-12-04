@@ -25,6 +25,9 @@ class SignupScreen extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
+                  const Text('SignUp',
+                      style:
+                          TextStyle(fontSize: 32, fontWeight: FontWeight.bold)),
                   //username
                   TextFormField(
                     validator: (value) {
